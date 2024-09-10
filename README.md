@@ -33,7 +33,8 @@ O sistema utiliza um banco de dados relacional com as seguintes tabelas:
 
 ### Diagrama do Banco de Dados
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/333be152-b1a1-4d23-ad3e-1f414e5267a4)
+
 
 ### Descrição das Tabelas
 
