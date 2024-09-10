@@ -1,0 +1,252 @@
+*{ margin: 0px; padding: 0px;}
+
+body{ min-width: 560px;  }
+
+.container-FlexColumn{ display: flex; 
+    flex-direction: column;}
+
+
+#h2_Anunciar{ font-weight: bold; 
+    color: white; 
+    font-size: 20px; 
+    margin: auto; 
+    padding: 0px;}
+
+.div-btns{ margin: 15px auto 15px auto; 
+    display: flex ;
+    flex-direction: row; 
+    width: 100%; 
+    justify-content: center;}
+
+.btn-white{ width: 60%; 
+    height: 90px;
+    background-color: white; 
+    border-radius: 10px; 
+   
+}
+
+.pBtn-white{margin: auto auto auto 30px; }
+
+.btn-grey{width: 140px; 
+    height: 60px; 
+    background-color: #C7C7C7; 
+    margin: auto 0px auto 15px; 
+    border-radius: 10px; 
+    display: flex;}
+
+.bt-left{ 
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    width: 50%; 
+    display: flex;
+    
+}
+
+.bt-right{
+    text-align: center; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    width: 50%;
+    display: flex;
+}
+
+.red-hover:hover{background-color: rgb(253, 51, 51); transition:  0.5s;}
+
+.blue-hover:hover{background-color: rgb(46, 46, 249); transition:  0.5s;}
+
+.pen_icon{width: 23px; margin: auto; }
+
+.lixo_icon{width: 25px; margin: auto;}
+
+.btn-Anunciar{ width: 130px; 
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    background-color:#D8B32D; 
+    border-radius: 10px; 
+    margin: 30px auto 30px auto; 
+    text-align: center; 
+    justify-content: center;
+    font-weight: bold; 
+    color: white; 
+    font-size: 20px;
+    border: none;
+
+}
+
+@media (max-width: 1000px) {
+   
+
+    .btn-Anunciar{
+        height: 100px;
+        padding-left: 65;
+        padding-right: 65;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    
+    .container-Anuncio{
+        width: 65%;
+        padding: 30px;
+    }
+    
+
+    .btn-grey{
+       margin: auto ;
+       width: 130px; 
+       height: 50px;
+       
+    }
+
+    .btn-white{
+        width: 310px;
+        height: 80px;
+
+        margin: 10px auto 10px auto;
+    }
+
+}
+
+@media (max-width: 760px) {
+   
+    .btn-Anunciar{
+        height: 100px;
+        padding-left: 65;
+        padding-right: 65;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+     .container-Anuncio{
+        width: 70%;
+     }
+
+     .container-FlexColumn{
+        height: 600px;
+
+    } 
+
+    .btn-grey{
+       margin: auto auto auto 10px;
+       width: 100px; 
+       height: 50px;
+       
+    }
+
+    .btn-white{
+        width: 260px;
+        height: 70px;
+        margin: 10px auto 10px auto;
+    }
+
+}
+
+
+/* parte do modal */
+
+
+
+.div-img{ background-color: #D9D9D9;
+        width: 90%;
+        height: 250px;
+        margin: auto;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+}
+
+.img-foto{
+    width: 100px;
+    margin: 30px auto 30px auto;
+
+
+}
+
+/* #txtImagemProduto{
+    border: none;
+    border-radius: 10px;
+    background-color: brown;
+    
+
+} */
+
+/* Esconde o input file específico */
+.form-img input[type="file"] {
+    display: none; /* Oculta o input padrão */
+}
+
+/* Estilo para o botão customizado dentro da form-img */
+.form-img .custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ffffff; /* Cor de fundo */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.form-img .custom-file-upload:hover {
+    background-color: #d3d4d3; /* Cor ao passar o mouse */
+}
+
+/* Estilo para o nome do arquivo */
+.form-img #file-name {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+/* --- */
+
+
+#modal-infos{ max-width: 700px; height: 100%; border-radius: 10px;}
+
+.div-infos{
+    background-color: #D9D9D9;
+        width: 80%;
+        height: 450px;
+        margin: 30px auto auto auto;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        
+
+}
+
+.form-group{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    
+} 
+
+.div-infos h3{margin-left: 20px; padding: 0px; font-size: 20px;}
+
+.form-group .txt-label{width: 10%; margin: 0px 20px 0px 20px;}
+
+.form-group .txt-input{width: 90%; margin-right: 20px;}
+
+#div-checkbox{display: flex; flex-direction: column; margin-left: 20px;}
+
+.form-group input { background-color: #9C9C9C; height: 40px; color: aliceblue; border: none; border-radius: 10px; margin-left: 20px;}
+
+.div-categorias{display: flex;
+flex-direction: row;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.div-categorias label{ margin-left: 20px;}
+
+#btnCadastrarProduto{padding: 10px 20px; background-color: #3D5B3D; border: none; border-radius: 10px; color: #ffffff; width: 190px; margin: 0px auto 0px auto;}
+
+/* #form-editar */

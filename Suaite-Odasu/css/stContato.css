@@ -1,0 +1,267 @@
+body {
+    font-family: 'ABeeZee', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3a563a;
+    color: white;
+    width: 100%;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "MuseoModerno", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+#diviBusca{
+    background-color:#ffffff;
+    padding: 5px;
+    border-radius:10px;
+    width: 300px;
+    height:42px;
+    display: flex;
+}
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    font-size:14px;
+    border:none;
+    height:32px;
+    width: 250px;
+    padding-left: 40px;
+    display: flex;
+  }
+  
+  
+  #divBusca img{
+    float:left;
+  }
+
+
+.iconPesquisar{
+    width: 10%;
+}
+
+.Pesquisar {
+   
+    margin-left: -200px;
+    position: relative;
+    z-index: 99;
+    top: 300px;
+}
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info .user-icon, .user-info .cart-icon {
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.chat {
+    width: 70%;
+    padding-top: 10px;
+}
+
+#wCadas {
+    width: 50%;
+    display: flex;
+    padding-top: 10px;
+}
+
+.fonte{
+    color: #979797;
+    padding: 0px 50px;
+    display: flex;
+}
+
+.central{
+    justify-content: center;
+    width: 30%;
+    margin: 50px;
+    border-radius: 30px;
+    background-color: #3a563a;
+    color: #fff;
+    display: flex;
+    font-family:'ABeeZee', Arial, sans-serif; 
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+}
+
+.squad{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.categorie {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.category {
+    width: 100px;
+    height: 100px;
+    background-color: #cccccc;
+    border-radius: 50%;
+    display: flex;
+    
+}
+
+.tim {
+    border-radius: 50%;
+    width: 80%;
+    margin: auto;
+    border: #3a563a 15px solid;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 20%;
+    border-radius: 10%;
+    display: flex;
+    padding: 10px;
+  }
+  
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    text-align: center;
+  }
+
+
+.linked{
+    width: 30%;
+}
+
+.maisa {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px ;
+    
+}
+
+#jer{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#maria{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px ;
+}
+
+#hen{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px ;
+}
+
+#gustavo{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+
+
+
+
+@media only screen and (min-width: 500px) {
+    .card{
+        min-width: 300px;
+        margin: 10px;
+    }
+    .categories{
+        flex-wrap:wrap ;
+    }
+
+    .categorie{
+        flex-wrap:wrap;
+        margin-top: -70px;
+    }
+
+    .tim{
+        
+        min-width: 150px;
+    }
+
+    .central{
+        min-width: 300px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .cabeca{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .center{
+        flex-direction: column;
+    }
+    .fonte{
+        padding: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1920px) {
+    .banner{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    .fot{
+        flex-direction: column;
+    }
+}
+
