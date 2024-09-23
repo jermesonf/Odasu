@@ -1,5 +1,7 @@
 # ODASU
 
+> Vídeo demonstração: https://youtu.be/W0x6KLTtGw0
+
 ## Descrição
 
 ODASU é um sistema de e-commerce que permite aos usuários realizar diversas ações, como criar e gerenciar contas, anunciar e editar produtos, além de se comunicar com outros usuários. Este sistema oferece uma plataforma completa para compra e venda de produtos, bem como para interação entre os usuários.
